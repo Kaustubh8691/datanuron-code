@@ -1,0 +1,119 @@
+
+  .update-item{
+    background-color: goldenrod;
+    color:#fff;
+  }
+  .delete-item{
+    background-color: red;
+    color:#fff;
+  }
+  .update-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .update-new-input{
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    padding: 8px;
+    outline: none;
+  }
+  button.update {
+    background-color: coral;
+    border: 1px solid;
+    border-radius: 5px;
+}.Pane.vertical.Pane1 {
+    background-color: aliceblue;
+    border: 2px solid goldenrod;
+}
+.Pane.vertical.Pane2 {
+    background-color: bisque;
+    border: 2px solid goldenrod;
+}
+.Pane.horizontal.Pane2 {
+    background-color: lightgray;
+    border: 2px solid goldenrod;
+}
+.update-new-btn {
+    background-color: lightseagreen;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  p.student-content {
+    margin: 10px 0 5px 20px;
+    /* background-color: bisque; */
+}
+.student {
+    overflow-y: scroll;
+    height: 9rem;
+}
+.student-data {
+    display: flex;
+    background-color: burlywood;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.Todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+.Todo h1{
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px
+}
+.form input[type="text"]{
+  padding:10px;
+  width: 85%;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus{
+  outline:none;
+}
+.form button[type="submit"]{
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer
+}
+.todo-listItems{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.todo-item{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 34px;
+}
+.item-content{
+  width: 60%
+}
+.todo-item button{
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 2px
+}
+.todo-item button:focus{
+  outline:none
+}
